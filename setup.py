@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             "image_controller_node = safety_detectors.image_controller_node:main",
             "relay_node = safety_detectors.relay_node:main",
+            "image_publisher = safety_detectors.image_publisher:main",
+            "image_subscriber = safety_detectors.image_subscriber:main",
         ],
     },
 )

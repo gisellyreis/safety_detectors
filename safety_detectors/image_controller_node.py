@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
 import os
-
+import os
+import sys
 import numpy as np
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import QoSProfile
 import cv2
 from cv_bridge import CvBridge
 from sensor_msgs.msg import CompressedImage
+from std_srvs.srv import SetBool  # ROS 2 service for setting publish/subscribe mode
+
 
 
 class ImageControllerNode(Node):

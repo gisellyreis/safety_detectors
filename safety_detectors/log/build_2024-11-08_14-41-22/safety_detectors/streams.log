@@ -1,0 +1,51 @@
+[0.482s] Invoking command in '/home/giselly/ros2_ws/src/safety_detectors': PYTHONPATH=/home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/safety_detectors build --build-base /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build install --record /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/install.log --single-version-externally-managed install_data
+[0.631s] running egg_info
+[0.631s] creating build/safety_detectors/safety_detectors.egg-info
+[0.631s] writing build/safety_detectors/safety_detectors.egg-info/PKG-INFO
+[0.631s] writing dependency_links to build/safety_detectors/safety_detectors.egg-info/dependency_links.txt
+[0.631s] writing entry points to build/safety_detectors/safety_detectors.egg-info/entry_points.txt
+[0.631s] writing requirements to build/safety_detectors/safety_detectors.egg-info/requires.txt
+[0.631s] writing top-level names to build/safety_detectors/safety_detectors.egg-info/top_level.txt
+[0.631s] writing manifest file 'build/safety_detectors/safety_detectors.egg-info/SOURCES.txt'
+[0.632s] reading manifest file 'build/safety_detectors/safety_detectors.egg-info/SOURCES.txt'
+[0.633s] adding license file 'LICENSE'
+[0.633s] writing manifest file 'build/safety_detectors/safety_detectors.egg-info/SOURCES.txt'
+[0.633s] running build
+[0.633s] running build_py
+[0.633s] creating /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build
+[0.633s] creating /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib
+[0.633s] creating /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] copying safety_detectors/image_publisher.py -> /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] copying safety_detectors/image_controller_node.py -> /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] copying safety_detectors/__init__.py -> /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] copying safety_detectors/image_subscriber.py -> /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] copying safety_detectors/water_detection_node.py -> /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors
+[0.633s] running install
+[0.634s] running install_lib
+[0.634s] creating /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.634s] copying /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors/image_publisher.py -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.634s] copying /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors/image_controller_node.py -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.634s] copying /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors/__init__.py -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.634s] copying /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors/image_subscriber.py -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.634s] copying /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build/lib/safety_detectors/water_detection_node.py -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors
+[0.635s] byte-compiling /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors/image_publisher.py to image_publisher.cpython-310.pyc
+[0.635s] byte-compiling /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors/image_controller_node.py to image_controller_node.cpython-310.pyc
+[0.635s] byte-compiling /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors/__init__.py to __init__.cpython-310.pyc
+[0.635s] byte-compiling /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors/image_subscriber.py to image_subscriber.cpython-310.pyc
+[0.636s] byte-compiling /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors/water_detection_node.py to water_detection_node.cpython-310.pyc
+[0.636s] running install_data
+[0.636s] creating /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/share/ament_index
+[0.636s] creating /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/share/ament_index/resource_index
+[0.636s] creating /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/share/ament_index/resource_index/packages
+[0.636s] copying resource/safety_detectors -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/share/ament_index/resource_index/packages
+[0.636s] copying package.xml -> /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/share/safety_detectors
+[0.636s] running install_egg_info
+[0.637s] Copying build/safety_detectors/safety_detectors.egg-info to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages/safety_detectors-0.0.0-py3.10.egg-info
+[0.638s] running install_scripts
+[0.650s] Installing image_controller_node script to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/safety_detectors
+[0.650s] Installing image_publisher script to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/safety_detectors
+[0.650s] Installing image_subscriber script to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/safety_detectors
+[0.651s] Installing relay_node script to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/safety_detectors
+[0.651s] Installing water_detection_node script to /home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/safety_detectors
+[0.651s] writing list of installed files to '/home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/install.log'
+[0.664s] Invoked command in '/home/giselly/ros2_ws/src/safety_detectors' returned '0': PYTHONPATH=/home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giselly/ros2_ws/src/safety_detectors/install/safety_detectors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/safety_detectors build --build-base /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/build install --record /home/giselly/ros2_ws/src/safety_detectors/build/safety_detectors/install.log --single-version-externally-managed install_data

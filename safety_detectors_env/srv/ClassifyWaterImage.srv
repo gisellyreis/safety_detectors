@@ -1,0 +1,6 @@
+sensor_msgs/CompressedImage image
+
+---
+ 
+bool result
+sensor_msgs/CompressedImage image

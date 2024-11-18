@@ -69,6 +69,55 @@ Ensure your ROS 2 environment is sourced before running any of the following com
 
 The service node classifies the provided image, and if water is detected, returns an annotated image with water localization.
 
+## Demo Examples
+
+This section demonstrates the functionality of the package using the service-based approach.
+
+### Example 1: No Water Detected
+
+**Input Image:**  
+<img src="images/001.jpg" alt="Input Image - Example 1" width="400"/>
+
+**Service Response:**
+```bash
+$ ros2 run safety_detectors service
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 274ms/step
+[INFO] [1731961151.398168367] [water_detection_service]: No water detected.
+```
+
+**Client Response:**
+```bash
+$ ros2 run safety_detectors client images/001.jpg
+[INFO] [1731961151.418183520] [water_detection_client]: No water detected in the image.
+```
+
+---
+
+### Example 2: Water Detected
+
+**Input Image:**  
+<img src="images/008.jpg" alt="Input Image - Example 2" width="400"/>
+
+**Service Response:**
+```bash
+$ ros2 run safety_detectors service
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step
+[INFO] [1731961365.971759969] [water_detection_service]: Water detected, running detection model.
+
+0: 640x640 1 Water, 11.7ms
+Speed: 3.8ms preprocess, 11.7ms inference, 38.9ms postprocess per image at shape (1, 3, 640, 640)
+```
+
+**Client Response:**
+```bash
+$ ros2 run safety_detectors client images/008.jpg
+[INFO] [1731961367.764316372] [water_detection_client]: Water detected. Displaying annotated image.
+```
+
+**Annotated Output Image:**  
+<img src="images/008_annotated.png" alt="Annotated Image - Example 2" width="400"/>
+
+
 ## Contribute
 
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request. Please ensure that your code adheres to the existing style and includes appropriate tests.

@@ -2,11 +2,11 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>safety_detectors</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>ROS 2 package for water classification and detection</description>
 
-  <maintainer email="gisellyareis@gmail.com">giselly</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="giselly.reis@fbter.org.br">giselly</maintainer>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>cv_bridge</depend>

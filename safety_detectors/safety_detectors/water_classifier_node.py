@@ -82,7 +82,7 @@ class WaterClassifierNode(Node):
 
     def publish_result(self, result, msg):
         water_classification_msg = WaterClassificationResult()
-        water_classification_msg.result = int(result) 
+        water_classification_msg.result = bool(result) 
         water_classification_msg.image = msg 
         self.publisher.publish(water_classification_msg)
         self.get_logger().info(f"Published result: {result}")

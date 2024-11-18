@@ -4,7 +4,7 @@ package_name = 'safety_detectors'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -18,9 +18,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='giselly',
-    maintainer_email='gisellyareis@gmail.com',
+    maintainer_email='giselly.reis@fbter.org.br',
     description='ROS 2 package for water classification and detection',
-    license='TODO: License declaration',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

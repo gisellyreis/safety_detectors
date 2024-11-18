@@ -2,5 +2,5 @@ sensor_msgs/CompressedImage image
 
 ---
  
-int32 result
+bool result
 sensor_msgs/CompressedImage image

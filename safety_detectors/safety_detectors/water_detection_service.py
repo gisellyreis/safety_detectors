@@ -30,7 +30,7 @@ class WaterDetectionService(Node):
         if image is not None:
             preprocessed_image = self.preprocess_image(image)
             result = self.run_classification(preprocessed_image)
-            response.result = int(result)
+            response.result = bool(result)
             
             if result == 1:
                 self.get_logger().info("Water detected, running detection model.")
@@ -57,7 +57,7 @@ class WaterDetectionService(Node):
     def run_classification(self, image):
         predictions = self.classification_model.predict(image)
         predicted_class = np.argmax(predictions, axis=-1)
-        return int(predicted_class[0])
+        return bool(predicted_class[0])
     
     def run_detection(self, image):
         results = self.detection_model(image, save=False)
